@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test信息</title>
+</head>
+<body>
+ <script type="text/javascript">
+       setInterval(function () {
+           window.location.reload();
+       },10000)
+   </script>
+    <h1 id="test1">信息列表</h1>
+
+    <u1>
+        {%for test in test_tbl%}
+        <li>
+            <a href="{{test}}">{{test}}</a>
+        </li>
+        {%endfor%}
+    </u1>
+</body>
+</html>

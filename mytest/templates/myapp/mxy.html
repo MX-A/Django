@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据实时显示</title>
+</head>
+
+<body>
+<style>
+    h1{
+        text-align:center;
+        margin-bottom:0;
+    }
+    .box{
+        position: absolute;
+       left: 5%;
+        top: 8%;
+        width:40%;
+    }
+    .header{
+      background-color:#FFA500;
+    }
+    .content{
+        position:absolute;
+       background-color:#EEEEEE;
+        height:500%;
+        width:100%;
+        float:left;
+    }
+    .box1{
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        width:40%;
+
+    }
+    .box2{
+        position: absolute;
+        left: 50%;
+        top: 8%;
+        width:40%;
+
+    }
+</style>
+<h1 style="">深圳电磁控制重点实验室</h1>
+<div class="box">
+<div class="header" ><h1 >幅值实时监测</h1></div>
+    <div class="content"style="height: 525%;">
+
+<div>
+    <span style="font-size:20px" ><strong> 幅值：</strong>
+    <div id="name1" style="font-size:20px;font-weight:bold; color:#ff9955;"></div></span>
+</div>
+
+<!--<script src="./js/exporting.js"></script>-->
+<!--<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<!--<script src="http://code.highcharts.com/highcharts.js"></script>-->
+
+<table  align="center">
+<tr>
+    <td>
+<div id="spline1" style="width: 500px;height:270px;"></div>
+    </td>
+</table>
+
+<script type="text/javascript">//定义图中内容
+
+var time;
+
+//读取数据库数据
+$(document).ready(function(){
+    setInterval(function () {
+           //  $.ajax({
+          //  type:"POST",
+           // url:"/myApp/ajax_submit/",//url:"server.php",    //请求的服务器地址
+           // data:{},
+           // async:false,
+            //datatype: "jsonp",
+            //success:function (data) {
+               // document.getElementById("name").innerHTML=data;
+            document.getElementById("name1").innerHTML=Math.random().toFixed(2);
+                chart =Highcharts.chart('spline1', {
+            type: 'spline',
+            animation: Highcharts.svg, // don't animate in old IE
+            marginRight: 10,
+            events: {
+                load: function () {
+                        var series = this.series[0];
+                    setInterval(function () {
+				series.addPoint([time,Math.random()], true, true);
+                    }, 1000);
+
+                }
+            },
+        title: {
+            text: '幅值实时监测'
+        },
+        xAxis: {
+            type: 'datetime',  //指定坐标轴类型
+            tickPixelInterval: 150  //设置坐标轴刻度之间像素距离
+        },
+        yAxis: {
+            title: {
+                text: 'v'
+            },
+            plotLines: [{
+                //value: 0,
+               // width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + '</b><br/>' +
+                    Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                    Highcharts.numberFormat(this.y, 2);
+            }
+        },
+        legend: {
+            enabled: true
+        },
+        exporting: {
+            enabled: false
+        },
+        series: [{
+            name: '实时数据',
+            data: (
+                function () {
+                var data = [],
+                    time = (new Date()).getTime()+8*60*60*1000,
+                    i;
+                for (i = -19; i <= 0; i += 1) {
+                    data.push({
+                        x: time + i * 1000,
+                        y: Math.random(),
+                    });
+                }
+                return data;
+            }())
+        }]
+    });
+
+          //  }
+           //      })
+    },  1000);
+
+
+});
+		</script>
+</div>
+
+
+    </div>
+</div>
+
+<div class="box1">
+<div class="header" >
+<h1 >相位实时监测</h1>
+</div>
+    <div class="content"style="height: 525%;">
+
+<div>
+    <span style="font-size:20px" ><strong> 相位：</strong>
+    <div id="name" style="font-size:20px;font-weight:bold; color:#ff9955;"></div></span>
+</div>
+
+<!--<script src="./js/exporting.js"></script>-->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+
+<table  align="center">
+<tr>
+    <td>
+<div id="spline2" style="width: 500px;height:270px;"></div>
+    </td>
+</table>
+
+<script type="text/javascript">//定义图中内容
+
+var time;
+
+//读取数据库数据
+$(document).ready(function(){
+
+    setInterval(function () {
+          //   $.ajax({
+           // type:"POST",
+           // url:"/myApp/ajax_submit/",//url:"server.php",    //请求的服务器地址
+           // data:{},
+           // async:false,
+           // datatype: "jsonp",
+           // success: function (data) {
+               // document.getElementById("name").innerHTML=data;
+            document.getElementById("name").innerHTML=Math.random().toFixed(2);
+                chart =Highcharts.chart('spline2', {
+            type: 'spline',
+            animation: Highcharts.svg, // don't animate in old IE
+            marginRight: 10,
+            events: {
+                load: function () {
+                        var series = this.series[0];
+                    setInterval(function () {
+				series.addPoint([time,Math.random()], true, true);
+                    }, 1000);
+
+                }
+            },
+        title: {
+            text: '相位实时监测'
+        },
+        xAxis: {
+            type: 'datetime',  //指定坐标轴类型
+            tickPixelInterval: 150  //设置坐标轴刻度之间像素距离
+        },
+        yAxis: {
+            title: {
+                text: '角度'
+            },
+            plotLines: [{
+                //value: 0,
+               // width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + '</b><br/>' +
+                    Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                    Highcharts.numberFormat(this.y, 2);
+            }
+        },
+        legend: {
+            enabled: true
+        },
+        exporting: {
+            enabled: false
+        },
+        series: [{
+            name: '实时数据',
+            data: (
+                function () {
+                var data = [],
+                    time = (new Date()).getTime()+8*60*60*1000,
+                    i;
+                for (i = -19; i <= 0; i += 1) {
+                    data.push({
+                        x: time + i * 1000,
+                        y: Math.random(),
+                    });
+                }
+                return data;
+            }())
+        }]
+    });
+
+         //   }
+           //      })
+    },  1000);
+
+
+});
+		</script>
+</div>
+</div>
+
+<div class="box2">
+<div class="header" ><h1 >历史数据</h1></div>
+<div class="content" style="height: 1130%;" >
+    <ul>
+        <!--[python04,python05.....]-->
+        <!--执行循环，每一次循环创建一个li-->
+       {%for test in test_tbl%}
+        <li>
+            <a href="{{test}}">{{test}}</a>
+        </li>
+       {%endfor%}
+
+    </ul>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">-->
+<!--</script>-->
+<!--<script src="http://code.highcharts.com/highcharts.js"></script>-->
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <script language="JavaScript" src="../../static/main.js"></script>
+    <style>
+          h1{
+        text-align:center;
+        margin-bottom:0;
+    }
+        p{
+            color: #0c04a5;
+            text-align: center;
+        }
+        img{
+
+            width: 300px;
+            height: 300px;
+            vertical-align: center;
+        }
+    </style>
+</head>
+<p>
+   <h1>深圳大学S821重点实验室</h1>
+    <p>
+        <button type="button" onclick="loadXMLDoc()">AJAX异步响应测试</button>
+    </p>
+<!--    <img src='static/fig.png' id="fig">-->
+    <p id="test">等待AJAX异步响应测试结果</p>
+
+<script src="static/code/modules/exporting.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="static/code/highcharts.js"></script>
+<script src="static/main.js"></script>
+<table  align="center">
+<tr>
+    <td>
+<div id="spline" style="width: 500px;height:270px;"></div>
+    </td>
+</table>
+<script type="text/javascript">//定义图中内容
+var time;
+//读取数据库数据
+$(document).ready(function(){
+        Highcharts.setOptions({
+            global: {
+                    useUTC: false
+            }
+                            });
+        function activeLastPointToolip(chart) {
+                var points = chart.series[0].points;
+                chart.tooltip.refresh(points[points.length -1]);}
+        var chart =Highcharts.chart('spline', {
+            chart: {
+                type: 'spline',
+                animation: Highcharts.svg, // don't animate in old IE
+                marginRight: 10,
+                events: {
+                    load: function () {
+                        var series = this.series[0],
+                            chart = this;
+                        activeLastPointToolip(chart);
+                        setInterval(function () {
+
+                            document.getElementById("test").innerText=json_data.UA;
+
+
+                            var x = (new Date()).getTime(); // 当前时间
+                            loadXMLDoc();
+                            if (data_id >= 577)
+                                data_id = 234;
+                            data_id = data_id + 1;
+                            y = json_data.UA,          // 随机值
+                                series.addPoint([x, y], true, true);
+                            activeLastPointToolip(chart);
+                        }, 1000);
+                    }
+                },
+            },
+        credits:{enabled:false},
+        title: {
+            text: '幅值实时监测'
+        },
+        xAxis: {
+            type: 'datetime',  //指定坐标轴类型
+            tickPixelInterval: 150  //设置坐标轴刻度之间像素距离
+        },
+        yAxis: {
+            title: {
+                text: 'v'
+            },
+            plotLines: [{
+                //value: 0,
+               // width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + '</b><br/>' +
+                    Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                    Highcharts.numberFormat(this.y, 2);
+            }
+        },
+        legend: {
+            enabled: true
+        },
+        exporting: {
+            enabled: false
+        },
+        series: [{
+            name: '实时数据',
+            data: (
+                function () {
+                var data = [],
+                    time = (new Date()).getTime(),
+                    i;
+                    for(i=-19;i<=0;i+=1){
+                    data.push({
+                        x: time + i * 1000,
+                        y: 0,
+                    });
+                }
+                return data;
+            }()
+                    )
+        }]
+    });
+
+});
+		</script>
+<!--<div>-->
+<!--    <span style="font-size:20px" ><strong> 相位：</strong>-->
+<!--    <div id="name" style="font-size:20px;font-weight:bold; color:#ff9955;"></div></span>-->
+<!--</div>-->
+<!-- <script type="text/javascript">-->
+<!--     // $(document).ready(function () {-->
+<!--     setInterval(function () {-->
+<!--      $.ajax({-->
+<!--    url: '/ajax',-->
+<!--    type: 'GET',     // 请求类型，常用的有 GET 和 POST-->
+<!--    data:{},-->
+<!--    async:false,-->
+<!--    datatype: "jsonp",-->
+<!--    success: function(data) { // 接口调用成功回调函数-->
+<!--        document.getElementById("test").innerText=date;// data 为服务器返回的数据-->
+<!--    }-->
+<!--    })-->
+<!--         }, 1000)-->
+<!--     // })-->
+<!--   </script>-->
+   <script src="../../static/RealTime.js"></script>
+    <p id="time"></p>
+
+    {%for i in list%}
+    <li>
+        <p>
+            <a href="{{i}}">测试数据库表--{{i}}</a>
+        </p>
+    </li>
+    {%endfor%}
+
+</body>
+</html>
