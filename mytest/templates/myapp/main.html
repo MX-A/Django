@@ -31,7 +31,7 @@
     </p>
 <!--    <img src='static/fig.png' id="fig">-->
     <p id="test">等待AJAX异步响应测试结果</p>
-    <p id="test1">等待AJAX异步响应测试结果</p>
+<!--    <p id="test1">等待AJAX异步响应测试结果</p>-->
 <script src="static/code/modules/exporting.js"></script>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="static/code/highcharts.js"></script>
@@ -82,8 +82,8 @@ $(document).ready(function(){
                             chart = this;
                         activeLastPointToolip(chart);
                         setInterval(function () {
-                            document.getElementById("test").innerText="UA="+json_data.UA+"  UB="+json_data.UB+"  UC="+
-                            json_data.UC+"  IA="+json_data.IA+"  IB="+json_data.IB+"  IC="+json_data.IC;
+        document.getElementById("test").innerText="UA="+json_data.UA+"  UB="+json_data.UB+"  UC="+
+        json_data.UC+"  IA="+json_data.IA+"  IB="+json_data.IB+"  IC="+json_data.IC;
                             var x = (new Date()).getTime(); // 当前时间
                             loadXMLDoc();
                             // if (data_id >= 577)
