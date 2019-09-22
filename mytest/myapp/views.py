@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .models import *
+from .read_data import read_data
+from .save_data import save_date
 import json
 import matplotlib.pyplot as plt
 import numpy as np
@@ -28,8 +30,10 @@ def detail(request, num):
         return render(request, 'myapp/'+num)
 
 def ajax(request,num):
-    liss = s821.objects.get(pk=int(num))
-    date = {"UA": liss.UA, "UB": liss.UB, "UC": liss.UC}
+    # try:
+    UA,UB,UC,IA,IB,IC = read_data()
+    # save_date(UA,UB,UC,IA,IB,IC)
+    date = {"UA": UA, "UB": UB, "UC": UC,"IA":IA,"IB":IB,"IC":IC}
     return JsonResponse(date)
 
 
@@ -44,7 +48,6 @@ def test1(request, num):
         if test1.name == num:
             test_get = test1
     return render(request, 'myapp/messge.html', {"test": test_get})
-
 
 # def pics(request):
 #     pic = picture.objects.all()

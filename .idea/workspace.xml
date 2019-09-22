@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="566e19b7-0df1-43f8-8026-7547a66f1c90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mytest/myapp/read_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mytest/myapp/save_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytest/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mytest/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/testpy.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="django-test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytest/myapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytest/myapp/read_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3285">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytest/myapp/save_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/pictures.html" />
+        <option value="$PROJECT_DIR$/mytest/__init__.py" />
+        <option value="$PROJECT_DIR$/Twisted.py" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/mytest/save_date.py" />
+        <option value="$PROJECT_DIR$/server1.py" />
+        <option value="$PROJECT_DIR$/client.py" />
+        <option value="$PROJECT_DIR$/udpclient1.py" />
+        <option value="$PROJECT_DIR$/testserver.py" />
+        <option value="$PROJECT_DIR$/client1.py" />
+        <option value="$PROJECT_DIR$/client2.py" />
+        <option value="$PROJECT_DIR$/udpclient3.py" />
+        <option value="F:/ZHUOMIAN/PycharmProjects/3d/爬虫selenium.py" />
+        <option value="$PROJECT_DIR$/udpserver.py" />
+        <option value="$PROJECT_DIR$/udpclient2.py" />
+        <option value="$PROJECT_DIR$/Create_Test_Number.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/migrations/save_date.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/tests.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/save_date.py" />
+        <option value="$PROJECT_DIR$/mytest/manage.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/date.py" />
+        <option value="$PROJECT_DIR$/mytest/mytest/urls.py" />
+        <option value="$PROJECT_DIR$/../server/client1.py" />
+        <option value="$PROJECT_DIR$/../server/server.py" />
+        <option value="$USER_HOME$/Desktop/mxy/0903/mxy903/myApp/models.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/admin.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/models.py" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/messge.html" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/picture.html" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/t.ipynb" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/ajax.html" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/package.json" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/test.js" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/onclick.js" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/test.txt" />
+        <option value="$PROJECT_DIR$/test_file.py" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/test_tbl.html" />
+        <option value="$PROJECT_DIR$/mytest/mytest/settings.py" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/picture.js" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/mxy.html" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/RealTime.js" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/main.js" />
+        <option value="$PROJECT_DIR$/mytest/static/RealTime.js" />
+        <option value="$PROJECT_DIR$/mytest/myapp/urls.py" />
+        <option value="$PROJECT_DIR$/mytest/static/main.js" />
+        <option value="$PROJECT_DIR$/mytest/templates/myapp/main.html" />
+        <option value="$PROJECT_DIR$/save_date.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/save_data.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/read_data.py" />
+        <option value="$PROJECT_DIR$/testpy.py" />
+        <option value="$PROJECT_DIR$/mytest/myapp/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="312" />
+    <option name="y" value="20" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="django-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-test" type="462c0819:PsiDirectoryNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-test" type="462c0819:PsiDirectoryNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mxy" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\django-test\mytest\myapp" />
+      <recent name="H:\django-test\mytest\templates\myapp" />
+      <recent name="H:\django-test\mytest" />
+      <recent name="H:\django-test\mytest\static" />
+      <recent name="H:\django-test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ANACONDA\Lib\site-packages\django\db\backends\mysql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.testpy">
+    <configuration name="read_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytest/myapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mytest/myapp/read_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save_date" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_date.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for myapp.views.test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="django-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;myapp.views.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in views.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="django-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/mytest/myapp/views.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.testpy" />
+      <item itemvalue="Python.save_date" />
+      <item itemvalue="Python tests.pytest for myapp.views.test" />
+      <item itemvalue="Python tests.pytest in views.py" />
+      <item itemvalue="Python.read_data" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testpy" />
+        <item itemvalue="Python.read_data" />
+        <item itemvalue="Python.save_date" />
+        <item itemvalue="Python tests.pytest in views.py" />
+        <item itemvalue="Python tests.pytest for myapp.views.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="566e19b7-0df1-43f8-8026-7547a66f1c90" name="Default Changelist" comment="" />
+      <created>1563532589747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563532589747</updated>
+      <workItem from="1563532594221" duration="4461000" />
+      <workItem from="1563604313260" duration="1945000" />
+      <workItem from="1563606498832" duration="1215000" />
+      <workItem from="1563624478309" duration="13675000" />
+      <workItem from="1563856879878" duration="54098000" />
+      <workItem from="1564135659332" duration="76433000" />
+      <workItem from="1564481698405" duration="3980000" />
+      <workItem from="1564730675376" duration="40000" />
+      <workItem from="1564733831273" duration="3554000" />
+      <workItem from="1564902039786" duration="614000" />
+      <workItem from="1564993983045" duration="4510000" />
+      <workItem from="1565003781175" duration="533000" />
+      <workItem from="1565005542271" duration="168000" />
+      <workItem from="1565249780045" duration="1046000" />
+      <workItem from="1565598540567" duration="25000" />
+      <workItem from="1565683388098" duration="8186000" />
+      <workItem from="1565751527186" duration="7186000" />
+      <workItem from="1565919464746" duration="2643000" />
+      <workItem from="1566640785303" duration="5447000" />
+      <workItem from="1566715615549" duration="3389000" />
+      <workItem from="1566999929976" duration="5723000" />
+      <workItem from="1567172122977" duration="927000" />
+      <workItem from="1567173128437" duration="5186000" />
+      <workItem from="1567221906422" duration="615000" />
+      <workItem from="1567239887092" duration="6346000" />
+      <workItem from="1567600835914" duration="17813000" />
+      <workItem from="1567856722259" duration="4313000" />
+      <workItem from="1567861184229" duration="5137000" />
+      <workItem from="1567873762268" duration="2772000" />
+      <workItem from="1567945933463" duration="152000" />
+      <workItem from="1568120277812" duration="3060000" />
+      <workItem from="1568185369784" duration="813000" />
+      <workItem from="1568207057676" duration="34817000" />
+      <workItem from="1568533414377" duration="46424000" />
+      <workItem from="1568815828530" duration="3138000" />
+      <workItem from="1568897340779" duration="22108000" />
+      <workItem from="1569146174440" duration="9200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_django-test - 2019.09.15 at 20h 49m 46s.xml">
+      <configuration name="pytest in django-test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 14h 48m 48s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 17h 06m 39s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 17h 12m 39s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 17h 14m 23s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 17h 36m 24s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 17h 42m 20s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 19h 55m 08s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_myapp_views_test - 2019.09.18 at 19h 55m 45s.xml">
+      <configuration name="pytest for myapp.views.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_views_py - 2019.09.20 at 21h 11m 23s.xml">
+      <configuration name="pytest in views.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="361692000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967825" visible="true" weight="0.123667374" />
+      <window_info id="Structure" order="1" sideWeight="0.5032175" side_tool="true" weight="0.20575693" />
+      <window_info id="Favorites" order="2" sideWeight="0.5032175" side_tool="true" weight="0.20575693" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2990249" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42361864" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.1991342" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32792208" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.512987" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mytest/templates/myapp/mxy.html</url>
+          <line>242</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/django_test$client1.coverage" NAME="client1 Coverage Results" MODIFIED="1564477579628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$Create_Test_Number.coverage" NAME="Create_Test_Number Coverage Results" MODIFIED="1566736933541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$udpclient1.coverage" NAME="udpclient1 Coverage Results" MODIFIED="1564469500366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1568985080530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$server.coverage" NAME="server Coverage Results" MODIFIED="1564328722508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$operations.coverage" NAME="operations Coverage Results" MODIFIED="1563606289709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ANACONDA/Lib/site-packages/django/db/backends/mysql" />
+    <SUITE FILE_PATH="coverage/django_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1567176146975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$pytest_in_test_file_py.coverage" NAME="pytest in test_file.py Coverage Results" MODIFIED="1568551757383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$Twisted.coverage" NAME="Twisted Coverage Results" MODIFIED="1564317023305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$udpclient2.coverage" NAME="udpclient2 Coverage Results" MODIFIED="1565003788218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$save_date__2_.coverage" NAME="save_date (2) Coverage Results" MODIFIED="1567176053803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$admin.coverage" NAME="admin Coverage Results" MODIFIED="1567860651230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/myapp" />
+    <SUITE FILE_PATH="coverage/django_test$pytest_in_mytest.coverage" NAME="pytest in mytest Coverage Results" MODIFIED="1563604958266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$testserver.coverage" NAME="testserver Coverage Results" MODIFIED="1564477546680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$base.coverage" NAME="base Coverage Results" MODIFIED="1563606278885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ANACONDA/Lib/site-packages/django/db/backends/mysql" />
+    <SUITE FILE_PATH="coverage/django_test$server1.coverage" NAME="server1 Coverage Results" MODIFIED="1564386067678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$tests.coverage" NAME="tests Coverage Results" MODIFIED="1567172081183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/myapp" />
+    <SUITE FILE_PATH="coverage/django_test$udpclient3.coverage" NAME="udpclient3 Coverage Results" MODIFIED="1566715632666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$testpy.coverage" NAME="testpy Coverage Results" MODIFIED="1569154735695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$settings.coverage" NAME="settings Coverage Results" MODIFIED="1564032704555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$date.coverage" NAME="date Coverage Results" MODIFIED="1567178294401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/myapp" />
+    <SUITE FILE_PATH="coverage/django_test$udpserver.coverage" NAME="udpserver Coverage Results" MODIFIED="1564477226939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$pytest_for_myapp_views_test.coverage" NAME="pytest for myapp.views.test Coverage Results" MODIFIED="1568807744008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$save_date__1_.coverage" NAME="save_date (1) Coverage Results" MODIFIED="1568549524965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$read_data.coverage" NAME="read_data Coverage Results" MODIFIED="1569152045685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/myapp" />
+    <SUITE FILE_PATH="coverage/django_test$save_date.coverage" NAME="save_date Coverage Results" MODIFIED="1569147295632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1564477827591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$pytest_in_django_test.coverage" NAME="pytest in django-test Coverage Results" MODIFIED="1568551785001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$client.coverage" NAME="client Coverage Results" MODIFIED="1564398014375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/django_test$save_date__3_.coverage" NAME="save_date (3) Coverage Results" MODIFIED="1567176356849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest/mytest" />
+    <SUITE FILE_PATH="coverage/django_test$selenium.coverage" NAME="爬虫selenium Coverage Results" MODIFIED="1564997771763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/ZHUOMIAN/PycharmProjects/3d" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test_number100.c" />
+    <entry file="file://$PROJECT_DIR$/Create_Test_Number.py" />
+    <entry file="file://$PROJECT_DIR$/udpserver.py" />
+    <entry file="file://$PROJECT_DIR$/../server/udpclient1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/date.py" />
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/client1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../server/Create_Test_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/mytest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mxy/0903/mxy903/myApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/t.ipynb" />
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/package.json" />
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/test.js" />
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/onclick.js" />
+    <entry file="file://$PROJECT_DIR$/mytest/static/picture/1/cos妹子图.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_file.py" />
+    <entry file="file://$PROJECT_DIR$/mytest/static/fig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/mxy/0903/mxy903/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/mytest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/mytest/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ANACONDA/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ANACONDA/Lib/site-packages/django/apps/registry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ANACONDA/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/pictures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/picture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/mxy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="129" column="63" lean-forward="true" selection-start-line="129" selection-start-column="63" selection-end-line="129" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/static/picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/static/RealTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/mytest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1931">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/messge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/test_tbl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/static/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/cache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/save_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/templates/myapp/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3285">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/cache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

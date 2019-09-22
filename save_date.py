@@ -9,7 +9,7 @@ import glob
 
 
 def save_s821_data():
-    for i in range(0, 300):
+    for i in range(0, 3):
         # time.sleep(1)
         UA = random.uniform(0, 0.3)
         UB = random.uniform(0, 0.3)
@@ -61,12 +61,12 @@ def save_picture():
     print(data)
 # 这个程序是向MYSQL服务器里写数据的
 # 数据库连接
-db = pymysql.connect('localhost', 'root', '000000', 'test')
+db = pymysql.connect('localhost', 'ak47', '123456', 'test')
 cursor = db.cursor()  # 光标
 
-# save_s821_data()
+save_s821_data()
 
-save_picture()
+# save_picture()
 
 # # 关闭数据库连接
 db.close()
