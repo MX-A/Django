@@ -7,8 +7,8 @@ from mytest.myapp.read_data import read_data
 while True:
     time.sleep(1)
     cache_data=open('mytest/myapp/cache.txt','w')
-    UA = random.uniform(10, 10.3)
-    UB = random.uniform(10, 10.3)
+    UA = random.uniform(0, 0.3)
+    UB = random.uniform(0, 0.3)
     UC = random.uniform(0, 0.3)
     IA = random.uniform(0, 0.3)
     IB = random.uniform(0, 0.3)

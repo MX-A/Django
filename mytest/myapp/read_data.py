@@ -27,13 +27,13 @@ def read_data():
         else:
             UA, UB, UC, IA, IB, IC=0.0
             print("没有新数据")
-            return (UA, UB, UC, IA, IB, IC)
+            return (round(UA,2), round(UB,2), round(UC,2), round(IA,2), round(IB,2), round(IC,2))
     else:
         UA, UB, UC, IA, IB, IC = 0.0
         print("没有新数据")
-        return (UA, UB, UC, IA, IB, IC)
+        return (round(UA,2), round(UB,2), round(UC,2), round(IA,2), round(IB,2), round(IC,2))
     # cache_data.seek(0)
     # cache_data.truncate()
     cache_data.close()
 
-    return (UA,UB,UC,IA,IB,IC)
+    return (round(UA,2), round(UB,2), round(UC,2), round(IA,2), round(IB,2), round(IC,2))
