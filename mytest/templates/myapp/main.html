@@ -16,12 +16,12 @@
             color: #0c04a5;
             text-align: center;
         }
-        img{
+        /*img{*/
 
-            width: 300px;
-            height: 300px;
-            vertical-align: center;
-        }
+        /*    width: 300px;*/
+        /*    height: 300px;*/
+        /*    vertical-align: center;*/
+        /*}*/
     </style>
 </head>
 <p>
@@ -31,7 +31,7 @@
     </p>
 <!--    <img src='static/fig.png' id="fig">-->
     <p id="test">等待AJAX异步响应测试结果</p>
-
+    <p id="test1">等待AJAX异步响应测试结果</p>
 <script src="static/code/modules/exporting.js"></script>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="static/code/highcharts.js"></script>
@@ -39,7 +39,7 @@
 <table  align="center">
 <tr>
     <td>
-<div id="spline" style="width: 500px;height:270px;"></div>
+<div id="spline" style="width: 900px;height:600px;"></div>
     </td>
 </table>
 <script type="text/javascript">//定义图中内容
@@ -61,12 +61,14 @@ $(document).ready(function(){
                 marginRight: 10,
                 events: {
                     load: function () {
-                        var series = this.series[0],
+                        var series1 = this.series[0];
+                        var series2 = this.series[1];
                             chart = this;
                         activeLastPointToolip(chart);
                         setInterval(function () {
 
-                            document.getElementById("test").innerText=json_data.UA;
+                            document.getElementById("test").innerText="UA="+json_data.UA;
+                            document.getElementById("test1").innerText="UB="+json_data.UB;
 
 
                             var x = (new Date()).getTime(); // 当前时间
@@ -74,11 +76,13 @@ $(document).ready(function(){
                             if (data_id >= 577)
                                 data_id = 234;
                             data_id = data_id + 1;
-                            y = json_data.UA,          // 随机值
-                                series.addPoint([x, y], true, true);
+                            y = json_data.UA,          //
+                            y1 = json_data.UB,          //
+                                series1.addPoint([x, y], true, true);
+                            series2.addPoint([x, y1], true, true);
                             activeLastPointToolip(chart);
                         }, 1000);
-                    }
+                    },
                 },
             },
         credits:{enabled:false},
@@ -113,7 +117,7 @@ $(document).ready(function(){
             enabled: false
         },
         series: [{
-            name: '实时数据',
+            name: 'UA',
             data: (
                 function () {
                 var data = [],
@@ -128,7 +132,25 @@ $(document).ready(function(){
                 return data;
             }()
                     )
-        }]
+        },
+            {
+            name: 'UB',
+            data: (
+                function () {
+                var data = [],
+                    time = (new Date()).getTime(),
+                    i;
+                    for(i=-19;i<=0;i+=1){
+                    data.push({
+                        x: time + i * 1000,
+                        y: 0,
+                    });
+                }
+                return data;
+            }()
+                    )
+        }
+        ]
     });
 
 });
