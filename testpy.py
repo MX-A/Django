@@ -22,7 +22,7 @@ while True:
     cache_data.write('SZU'+str(IC)+'F\n')
     cache_data.close()
     # UA, UB, UC, IA, IB, IC=read_data()
-    print(UA, UB, UC, IA, IB, IC)
+#    print(UA, UB, UC, IA, IB, IC)
 # cache_data=open('cache.txt','r+')
 # datalines=cache_data.readlines()
 # if datalines[0] == 'NEW\n':
