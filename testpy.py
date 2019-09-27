@@ -7,12 +7,12 @@ from mytest.myapp.read_data import read_data
 while True:
     time.sleep(1)
     cache_data=open('mytest/myapp/cache.txt','w')
-    UA = random.uniform(0, 0.3)
-    UB = random.uniform(0, 0.3)
-    UC = random.uniform(0, 0.3)
-    IA = random.uniform(0, 0.3)
-    IB = random.uniform(0, 0.3)
-    IC = random.uniform(0, 0.3)
+    UA = random.uniform(10, 10.3)
+    UB = random.uniform(10, 10.3)
+    UC = random.uniform(10, 10.3)
+    IA = random.uniform(10, 10.3)
+    IB = random.uniform(10, 10.3)
+    IC = random.uniform(10, 10.3)
     cache_data.write('NEW\n')
     cache_data.write('SZU'+str(UA)+'A\n')
     cache_data.write('SZU'+str(UB)+'B\n')
@@ -22,11 +22,7 @@ while True:
     cache_data.write('SZU'+str(IC)+'F\n')
     cache_data.close()
     # UA, UB, UC, IA, IB, IC=read_data()
-<<<<<<< HEAD
-    print(UA, UB, UC, IA, IB, IC)
-=======
 #    print(UA, UB, UC, IA, IB, IC)
->>>>>>> bb3aec808e56180721e4de7bb1a087c949da3d79
 # cache_data=open('cache.txt','r+')
 # datalines=cache_data.readlines()
 # if datalines[0] == 'NEW\n':
