@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片</title>
+</head>
+<body>
+    <h1>图片列表</h1>
+    <u1>
+    {%for picture in pic%}
+    <li>
+        <a href="{{picture.id}}">{{picture.name}}</a>
+<!--        <script type="text/javascript">-->
+<!--            var file = "{{picture.image_path}}";-->
+<!--            url = "http://localhost:8080/templates/myapp/picture/1/Yoki柳侑绮生活写真.jpg";-->
+<!--            document.write("<img src=url width=\"30\" height=\"22\"/>")-->
+<!--        </script>-->
+    </li>
+    {%endfor%}
+    </u1>
+</body>
+</html>

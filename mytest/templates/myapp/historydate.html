@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史数据</title>
+</head>
+<body>
+{%for data in datelist%}
+    <li>
+    <a>
+        日期:{{data.name}}----UA:{{ data.UA}},UB:{{data.UB}},UC:{{data.UC}},IA:{{data.IA}},IB:{{data.IB}},IC:{{data.IC}}
+    </a>
+    </li>
+ {%endfor%}
+</body>
+</html>
