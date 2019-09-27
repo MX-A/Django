@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        p{
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
-<p id="test">等待AJAX异步响应测试结果</p>
+<p id="test">实时数据</p>
 <script src="static/code/modules/exporting.js"></script>
 <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="static/code/highcharts.js"></script>
@@ -20,6 +25,7 @@
 var time;
 //读取数据库数据
 json_data={};
+ document.getElementById("test").innerText="无数据";
 $(document).ready(function(){
         Highcharts.setOptions({
             global: {
@@ -57,10 +63,10 @@ $(document).ready(function(){
                             chart = this;
                         activeLastPointToolip(chart);
                         setInterval(function () {
-        document.getElementById("test").innerText="UA="+json_data.UA+"  UB="+json_data.UB+"  UC="+
-        json_data.UC+"  IA="+json_data.IA+"  IB="+json_data.IB+"  IC="+json_data.IC;
                             var x = (new Date()).getTime(); // 当前时间
                             loadXMLDoc();
+        document.getElementById("test").innerText="UA="+json_data.UA+"  UB="+json_data.UB+"  UC="+
+        json_data.UC+"  IA="+json_data.IA+"  IB="+json_data.IB+"  IC="+json_data.IC;
                             // if (data_id >= 577)
                             //     data_id = 234;
                             // data_id = data_id + 1;

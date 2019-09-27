@@ -11,7 +11,6 @@ from django.http import HttpResponse,JsonResponse
 
 
 def index(request):
-<<<<<<< HEAD
     return render(request, 'myapp/main.html')
 
 def realtimedata(request):
@@ -37,32 +36,7 @@ def ajax(request):
     # try:
     UA,UB,UC,IA,IB,IC = read_data()#数据是从read_data函数得到的
     # save_date(UA,UB,UC,IA,IB,IC)
-    print('succss join')
-=======
-    list = ['test']
-    return render(request, 'myapp/main.html', {"list": list})
-
-
-def detail(request, num):
-    if num == 'test':
-        listss=s821.objects.all()
-        return render(request, 'myapp/test_tbl.html', {"test_tbl": listss})
-    # elif num == 'ajax':
-    #     liss=s821.objects.get(pk=240)
-    #     date = {"UA":liss.UA, "UB":liss.UB, "UC":liss.UC}
-    #     return JsonResponse(date)
-    elif num == 'mxy':
-        listss=s821.objects.all()
-        return render(request, 'myapp/mxy.html', {"test_tbl": listss})
-    else:
-        return render(request, 'myapp/'+num)
-
-def ajax(request,num):
-    # try:
-    UA,UB,UC,IA,IB,IC = read_data()
-    # save_date(UA,UB,UC,IA,IB,IC)
->>>>>>> bb3aec808e56180721e4de7bb1a087c949da3d79
-    date = {"UA": UA, "UB": UB, "UC": UC,"IA":IA,"IB":IB,"IC":IC}
+    date = {"UA": UA, "UB": UB, "UC": UC, "IA": IA, "IB": IB, "IC": IC}
     return JsonResponse(date)
 
 
