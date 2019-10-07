@@ -15,8 +15,6 @@ from .models import *
 #         ("base", {"fields": ["name", "date", "Delete"]}),
 #     ]
 
-admin.site.register(test_tbl)
-admin.site.register(test1_tbl)
-admin.site.register(picture)
+
 admin.site.register(s821)
 

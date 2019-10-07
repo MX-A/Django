@@ -37,15 +37,15 @@ def save_s821_data():
 
 
 def save_picture():
-    path = glob.glob(r"H:\django-test\mytest\static\picture/*/*")
-    s = len('H:\django-test\mytest\\')
+    path = glob.glob(r"F:\django-test\mytest\static\picture/*/*")
+    s = len('F:\django-test\mytest\\')
     # stt = os.path.basename(path[100])
     # print(stt)
     for picture in path:
         picture_name=os.path.basename(picture)
         dates = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         picture_url=picture[s:].replace('\\','/')
-        SQL = "INSERT INTO myapp_picture(" \
+        SQL = "INSERT INTO myapp2_picture(" \
               "name,date, image_path) VALUES ('%s','%s','%s')" % \
               (picture_name, dates, picture_url)
         try:
@@ -56,7 +56,7 @@ def save_picture():
         except:
             # Rollback in case there is any error
             db.rollback()
-    cursor.execute('select * from myapp_picture')
+    cursor.execute('select * from myapp2_picture')
     data = cursor.fetchall()
     print(data)
 # 这个程序是向MYSQL服务器里写数据的
@@ -64,9 +64,9 @@ def save_picture():
 db = pymysql.connect('localhost', 'ak47', '123456', 'test')
 cursor = db.cursor()  # 光标
 
-save_s821_data()
+# save_s821_data()
 
-# save_picture()
+save_picture()
 
 # # 关闭数据库连接
 db.close()
