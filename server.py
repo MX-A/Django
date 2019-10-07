@@ -1,34 +1,35 @@
+#encoding: utf-8
 import socket, select
 from queue import Queue
 import threading
 import os, sys
 
-# Õâ¸ö³ÌĞòÔËĞĞÔÚ·şÎñÆ÷ÉÏ£¬Ëû¿ÉÒÔ½ÓÊÕµ½Éè±¸·¢µÄÊı¾İ²¢½«Êı¾İ×ª·¢µ½ÎÒµÄµçÄÔÉÏ
+# è¿™ä¸ªç¨‹åºè¿è¡Œåœ¨æœåŠ¡å™¨ä¸Šï¼Œä»–å¯ä»¥æ¥æ”¶åˆ°è®¾å¤‡å‘çš„æ•°æ®å¹¶å°†æ•°æ®è½¬å‘åˆ°æˆ‘çš„ç”µè„‘ä¸Š
 
 message = Queue(maxsize=1024)
 socks = []
 
 def tcp_server():
-    # ´´½¨tcp socketÌ×½Ó×Ö¶ÔÏó #(º¯Êı socket.socket ´´½¨Ò»¸ö socket£¬¸Ãº¯Êı´øÓĞÁ½¸ö²ÎÊı£ºAddressFamily, Type)
+    # åˆ›å»ºtcp socketå¥—æ¥å­—å¯¹è±¡ #(å‡½æ•° socket.socket åˆ›å»ºä¸€ä¸ª socketï¼Œè¯¥å‡½æ•°å¸¦æœ‰ä¸¤ä¸ªå‚æ•°ï¼šAddressFamily, Type)
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # tcp_server = ('192.168.0.104',1883)
-    # ×¼±¸Ä¿±êÖ÷»úµÄipµØÖ·ºÍ¶Ë¿ÚºÅ
+    # å‡†å¤‡ç›®æ ‡ä¸»æœºçš„ipåœ°å€å’Œç«¯å£å·
     tcp_server = ('127.0.0.1', 1883)
-    # °ó¶¨µØÖ·
+    # ç»‘å®šåœ°å€
     tcp_socket.bind(tcp_server)
-    # listenÊ¹Ì×½Ó×Ö±äÎª¿ÉÒÔ±»¶¯Á¬½Ó£¬¼´¿ªÆô¼àÌı
+    # listenä½¿å¥—æ¥å­—å˜ä¸ºå¯ä»¥è¢«åŠ¨è¿æ¥ï¼Œå³å¼€å¯ç›‘å¬
     tcp_socket.listen()
     while True:
-        # µÈ´ı¿Í»§¶ËÁ¬½Ó£¬Á¬½Óºó·µ»ØÒ»¸öĞÂµÄÌ×½Ó×ÖÎª¿Í»§¶Ë·şÎñ£¬ip¡¢port
+        # ç­‰å¾…å®¢æˆ·ç«¯è¿æ¥ï¼Œè¿æ¥åè¿”å›ä¸€ä¸ªæ–°çš„å¥—æ¥å­—ä¸ºå®¢æˆ·ç«¯æœåŠ¡ï¼Œipã€port
         tcp_clientsock, tcp_clientaddr = tcp_socket.accept()
         while True:
             if message.empty() ==  False:
-                get_date = message.get_nowait()  # ·Ç×èÈû£¬È¡²»µ½ÖµÒ²²»µÈ
+                get_date = message.get_nowait()  # éé˜»å¡ï¼Œå–ä¸åˆ°å€¼ä¹Ÿä¸ç­‰
                 try:
                     tcp_clientsock.send(get_date)
-                    print("TCP¿Í»§¶ËIPµØÖ·Îª:" + str(tcp_clientaddr) + ",Êı¾İ£º" + get_date.decode('utf-8'))
+                    print("TCPå®¢æˆ·ç«¯IPåœ°å€ä¸º:" + str(tcp_clientaddr) + ",æ•°æ®ï¼š" + get_date.decode('utf-8'))
                 except:
-                    print("¿Í»§¶ËÒÑ¶Ï¿ªÁ¬½Ó")
+                    print("å®¢æˆ·ç«¯å·²æ–­å¼€è¿æ¥")
                     tcp_clientsock.close()
                     break
 
