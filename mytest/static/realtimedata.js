@@ -1,4 +1,4 @@
-function loadXMLDoc()
+function loadXMLDoc(ajax)
             {
               var xmlhttp;
               if (window.XMLHttpRequest)
@@ -18,6 +18,6 @@ function loadXMLDoc()
                  json_data=JSON.parse(xmlhttp.responseText);
                 }
               }
-              xmlhttp.open("GET",'/realtimedate/ajax',true);
+              xmlhttp.open("GET",ajax,true);
               xmlhttp.send();
             }

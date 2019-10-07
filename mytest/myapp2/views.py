@@ -10,6 +10,6 @@ def pictures(request):
 def ajax(request):
     # try:
     UA,UB,UC,IA,IB,IC = read_data()#数据是从read_data函数得到的
-    # save_date(UA,UB,UC,IA,IB,IC)
+    # # save_date(UA,UB,UC,IA,IB,IC)
     date = {"UA": UA, "UB": UB, "UC": UC, "IA": IA, "IB": IB, "IC": IC}
     return JsonResponse(date)

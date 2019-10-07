@@ -25,11 +25,11 @@ def read_data():
                     IC = float(dataline[3:num - 2])
                     print(IC)
         else:
-            UA, UB, UC, IA, IB, IC=0.0
+            UA, UB, UC, IA, IB, IC = 1.0
             print("没有新数据")
             return (round(UA,2), round(UB,2), round(UC,2), round(IA,2), round(IB,2), round(IC,2))
     else:
-        UA, UB, UC, IA, IB, IC = 0.0
+        UA, UB, UC, IA, IB, IC = 1.0
         print("没有新数据")
         return (round(UA,2), round(UB,2), round(UC,2), round(IA,2), round(IB,2), round(IC,2))
     # cache_data.seek(0)
