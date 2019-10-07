@@ -4,7 +4,7 @@ from .models import *
 from .read_data import read_data
 # Create your views here.
 def index(request):
-    return HttpResponse("myapp2/main.html")
+    return render(request,"myapp2/main.html")
 def pictures(request):
     return render(request,'myapp2/picture.html')
 def ajax(request):
